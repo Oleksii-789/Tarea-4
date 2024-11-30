@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<agenda xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="agenda.xsd">
+    <ficha categoria="empresa" zona="La flota">
+        <nombre>Juan</nombre>
+        <apellido1>Pérez</apellido1>
+        <telefonos>
+            <telefono_nacional tipo="móvil">612345678</telefono_nacional>
+            <telefono_nacional tipo="fijo">923456789</telefono_nacional>
+        </telefonos>
+        <emails>
+            <email>juan.perez@empresa.com</email>
+        </emails>
+        <direcciones>
+            <direccion>
+                <calle>Calle Mayor 123</calle>
+                <codigo_postal>28001</codigo_postal>
+                <ciudad>Madrid</ciudad>
+                <pais>España</pais>
+            </direccion>
+        </direcciones>
+    </ficha>
+    <ficha categoria="particular" zona="Infante">
+        <nombre>Ana</nombre>
+        <apellido1>García</apellido1>
+        <telefono_nacional tipo="móvil">612345679</telefono_nacional>
+        <telefono_internacional>+33 140633900</telefono_internacional>
+        <emails>
+            <email>ana.garcia@example.com</email>
+        </emails>
+        <direcciones>
+            <direccion>
+                <calle>Calle Luna 45</calle>
+                <codigo_postal>30001</codigo_postal>
+                <ciudad>Murcia</ciudad>
+                <pais>España</pais>
+            </direccion>
+        </direcciones>
+    </ficha>
+    <ficha categoria="comercial" zona="San Antón">
+        <nombre>Pedro</nombre>
+        <apellido1>Martínez</apellido1>
+        <telefono_nacional tipo="fijo">923456780</telefono_nacional>
+        <emails>
+            <email>pedro.martinez@comercial.com</email>
+        </emails>
+        <direcciones>
+            <direccion>
+                <calle>Avenida Libertad 10</calle>
+                <codigo_postal>41001</codigo_postal>
+                <ciudad>Sevilla</ciudad>
+                <pais>España</pais>
+            </direccion>
+        </direcciones>
+    </ficha>
+    <ficha categoria="empresa" zona="Ronda Norte">
+        <nombre>Lucía</nombre>
+        <apellido1>Fernández</apellido1>
+        <telefono_nacional tipo="móvil">612345670</telefono_nacional>
+        <telefono_internacional>+49 3020405060</telefono_internacional>
+        <emails>
+            <email>lucia.fernandez@empresa.com</email>
+        </emails>
+        <direcciones>
+            <direccion>
+                <calle>Calle Sol 5</calle>
+                <codigo_postal>08001</codigo_postal>
+                <ciudad>Barcelona</ciudad>
+                <pais>España</pais>
+            </direccion>
+        </direcciones>
+    </ficha>
+</agenda>

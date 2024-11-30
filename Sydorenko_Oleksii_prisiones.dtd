@@ -1,0 +1,25 @@
+<!ELEMENT carceles (prision+)>
+<!ELEMENT prision (codigo, nombre, director, direccion, fecha_inauguracion, capacidad, funcionarios, reclusos, celdas)>
+<!ELEMENT codigo (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT director (nombre_completo, fecha_nombramiento)>
+<!ELEMENT nombre_completo (#PCDATA)>
+<!ELEMENT fecha_nombramiento (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT fecha_inauguracion (#PCDATA)>
+<!ELEMENT capacidad (#PCDATA)>
+<!ELEMENT funcionarios (funcionario+)>
+<!ELEMENT funcionario (puesto, fecha_incorporacion, nombre_completo)>
+<!ELEMENT puesto (#PCDATA)>
+<!ELEMENT fecha_incorporacion (#PCDATA)>
+<!ELEMENT reclusos (recluso+)>
+<!ELEMENT recluso (numero, nombre_completo, celda, fecha_ingreso, duracion, peligrosidad)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT celda (#PCDATA)>
+<!ELEMENT fecha_ingreso (#PCDATA)>
+<!ELEMENT duracion (#PCDATA)>
+<!ELEMENT peligrosidad (#PCDATA)>
+<!ELEMENT celdas (celda_disponible+)>
+<!ELEMENT celda_disponible (numero, pabellon, plazas)>
+<!ELEMENT pabellon (#PCDATA)>
+<!ELEMENT plazas (#PCDATA)>

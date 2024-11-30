@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE carceles SYSTEM "carceles.dtd">
+<carceles>
+    <prision>
+        <codigo>001</codigo>
+        <nombre>Prisión Central</nombre>
+        <director>
+            <nombre_completo>Juan Pérez</nombre_completo>
+            <fecha_nombramiento>2020-01-15</fecha_nombramiento>
+        </director>
+        <direccion>Calle Mayor 123, Madrid, España</direccion>
+        <fecha_inauguracion>1995-07-20</fecha_inauguracion>
+        <capacidad>500</capacidad>
+        <funcionarios>
+            <funcionario>
+                <puesto>carcelero</puesto>
+                <fecha_incorporacion>2015-03-10</fecha_incorporacion>
+                <nombre_completo>Carlos García</nombre_completo>
+            </funcionario>
+            <funcionario>
+                <puesto>administrativo</puesto>
+                <fecha_incorporacion>2018-06-22</fecha_incorporacion>
+                <nombre_completo>Ana López</nombre_completo>
+            </funcionario>
+        </funcionarios>
+        <reclusos>
+            <recluso>
+                <numero>00123</numero>
+                <nombre_completo>Pedro Martínez</nombre_completo>
+                <celda>101</celda>
+                <fecha_ingreso>2023-04-01</fecha_ingreso>
+                <duracion>5 años</duracion>
+                <peligrosidad>posiblemente peligroso</peligrosidad>
+            </recluso>
+            <recluso>
+                <numero>00124</numero>
+                <nombre_completo>Luis Sánchez</nombre_completo>
+                <celda>102</celda>
+                <fecha_ingreso>2023-05-15</fecha_ingreso>
+                <duracion>3 años</duracion>
+                <peligrosidad>no peligroso</peligrosidad>
+            </recluso>
+        </reclusos>
+        <celdas>
+            <celda_disponible>
+                <numero>101</numero>
+                <pabellon>A</pabellon>
+                <plazas>2</plazas>
+            </celda_disponible>
+            <celda_disponible>
+                <numero>102</numero>
+                <pabellon>A</pabellon>
+                <plazas>2</plazas>
+            </celda_disponible>
+        </celdas>
+    </prision>
+    <prision>
+        <codigo>002</codigo>
+        <nombre>Prisión del Norte</nombre>
+        <director>
+            <nombre_completo>María Fernández</nombre_completo>
+            <fecha_nombramiento>2019-11-08</fecha_nombramiento>
+        </director>
+        <direccion>Avenida Libertad 45, Bilbao, España</direccion>
+        <fecha_inauguracion>2000-09-30</fecha_inauguracion>
+        <capacidad>300</capacidad>
+        <funcionarios>
+            <funcionario>
+                <puesto>carcelero</puesto>
+                <fecha_incorporacion>2016-07-12</fecha_incorporacion>
+                <nombre_completo>Javier Ruiz</nombre_completo>
+            </funcionario>
+            <funcionario>
+                <puesto>personal de servicios</puesto>
+                <fecha_incorporacion>2019-02-14</fecha_incorporacion>
+                <nombre_completo>Elena Gómez</nombre_completo>
+            </funcionario>
+        </funcionarios>
+        <reclusos>
+            <recluso>
+                <numero>00234</numero>
+                <nombre_completo>Manuel Torres</nombre_completo>
+                <celda>201</celda>
+                <fecha_ingreso>2022-03-10</fecha_ingreso>
+                <duracion>7 años</duracion>
+                <peligrosidad>peligroso</peligrosidad>
+            </recluso>
+            <recluso>
+                <numero>00235</numero>
+                <nombre_completo>Jorge Díaz</nombre_completo>
+                <celda>202</celda>
+                <fecha_ingreso>2022-06-21</fecha_ingreso>
+                <duracion>4 años</duracion>
+                <peligrosidad>muy peligroso</peligrosidad>
+            </recluso>
+        </reclusos>
+        <celdas>
+            <celda_disponible>
+                <numero>201</numero>
+                <pabellon>B</pabellon>
+                <plazas>1</plazas>
+            </celda_disponible>
+            <celda_disponible>
+                <numero>202</numero>
+                <pabellon>B</pabellon>
+                <plazas>1</plazas>
+            </celda_disponible>
+        </celdas>
+    </prision>
+</carceles>
